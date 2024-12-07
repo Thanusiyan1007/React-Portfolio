@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useForm } from 'react-hook-form';
 import useWeb3Forms from '@web3forms/react';
 import { toast, ToastContainer } from 'react-toastify';
@@ -6,8 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
     const { register, reset, handleSubmit } = useForm();
-    const [isSuccess, setIsSuccess] = useState(false);
-    const [result, setResult] = useState(null);
 
     const accessKey = "9425d211-c05a-49d5-a02b-dd6360a1069b"; // Replace with your Web3Forms API key
 
@@ -17,20 +15,16 @@ function Contact() {
             from_name: "Rayappu Thanusiyan",
             subject: "New Contact Message from your Website",
         },
-        onSuccess: (msg, data) => {
-            setIsSuccess(true);
-            setResult(msg);
+        onSuccess: (msg) => {
             reset();
             toast.success('Message sent successfully!', {
-                position: 'top-right', // Direct string position
+                position: 'top-right',
                 autoClose: 5000,
             });
         },
-        onError: (msg, data) => {
-            setIsSuccess(false);
-            setResult(msg);
+        onError: (msg) => {
             toast.error('Failed to send message. Please try again.', {
-                position: 'top-right', // Direct string position
+                position: 'top-right',
                 autoClose: 5000,
             });
         },
