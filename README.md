@@ -1,3 +1,32 @@
+
+# React Portfolio
+
+Welcome to my React portfolio project! This is a personal portfolio built using React.js to showcase my skills, projects, and experience as a UI/UX designer and web developer.
+
+## Features
+
+- **Responsive Design**: Fully responsive layout optimized for mobile, tablet, and desktop devices.
+- **Project Showcase**: Display of various projects I've worked on, with links to live demos and GitHub repositories.
+- **Skills & Technologies**: Overview of the technologies I'm proficient in, such as React.js, HTML, CSS, JavaScript, and more.
+- **About Me**: A section where you can learn more about my background and professional experience.
+- **Contact**: Contact form for easy communication.
+
+## Technologies Used
+
+- **React.js**: For building the user interface.
+- **Tailwind CSS**: For styling the components with utility-first classes.
+- **JavaScript**: For dynamic functionality.
+- **HTML & CSS**: For structuring and styling the page.
+- **React Router**: For handling navigation between different sections of the portfolio.
+
+## Installation
+
+To get started with this project locally, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Thanusiyan1007/React-Portfolio.git
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -60,38 +89,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-# React Portfolio
-
-Welcome to my React portfolio project! This is a personal portfolio built using React.js to showcase my skills, projects, and experience as a UI/UX designer and web developer.
-
-## Features
-
-- **Responsive Design**: Fully responsive layout optimized for mobile, tablet, and desktop devices.
-- **Project Showcase**: Display of various projects I've worked on, with links to live demos and GitHub repositories.
-- **Skills & Technologies**: Overview of the technologies I'm proficient in, such as React.js, HTML, CSS, JavaScript, and more.
-- **About Me**: A section where you can learn more about my background and professional experience.
-- **Contact**: Contact form for easy communication.
-
-## Technologies Used
-
-- **React.js**: For building the user interface.
-- **Tailwind CSS**: For styling the components with utility-first classes.
-- **JavaScript**: For dynamic functionality.
-- **HTML & CSS**: For structuring and styling the page.
-- **React Router**: For handling navigation between different sections of the portfolio.
-
-## Installation
-
-To get started with this project locally, follow these steps:
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/Thanusiyan1007/React-Portfolio.git
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
